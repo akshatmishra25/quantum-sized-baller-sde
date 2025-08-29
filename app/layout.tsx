@@ -23,6 +23,7 @@ const fontSans = FontSans({
 const fontMono = FontMono({
   subsets: ["latin"],
   display: "swap",
+  weight: "400",
   variable: "--font-geist-mono",
 })
 

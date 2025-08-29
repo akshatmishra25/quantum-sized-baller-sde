@@ -2,13 +2,19 @@ import Link from "next/link"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import type { Post } from "@/lib/posts"
+import { categoryNames } from "@/lib/posts"
 
 export function PostCard({ post }: { post: Post }) {
   return (
     <Card className="transition-transform hover:-translate-y-0.5">
       <CardHeader className="pb-2">
+        <div className="flex items-center gap-2 mb-2">
+          <Badge variant="outline" className="text-xs">
+            {categoryNames[post.category]}
+          </Badge>
+        </div>
         <Link
-          href={`/blog/${post.slug}`}
+          href={`/blog/${post.category}/${post.slug}`}
           className="text-lg font-semibold text-white underline-offset-2 hover:text-[var(--brand)] hover:underline"
         >
           {post.title}
