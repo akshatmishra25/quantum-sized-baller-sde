@@ -128,28 +128,31 @@ And with that I'll end this post, hope you liked reading it!`,
     author: "Akshat",
   },
   {
-    slug: "jazz-and-the-art-of-improv",
-    title: "Jazz and the Art of Improvisation",
-    excerpt: "How jazz improvisation mirrors life's unpredictable nature.",
-    content: `## The Freedom of Constraints
+    slug: "backend-developer-intern-graviti",
+    title: "Backend Developer Intern, Graviti",
+    excerpt: "An acceptance which acted as a payoff to the month of June.",
+    content: `## The Application Process and some Context
+    I applied to Graviti on Cuvette for both Backend Developer and Frontend Developer Intern Profile. This was one of those applications which appeared on Cuvette and you apply because the platform has such an easy single click application process. As I said in the previous post, Internship hunting was a top priority this summer for me and though I was preparing for DSA by practising 3-4 DSA questions daily, I was applying to all sorts of development internship positions multiple times in a day.
+## Round 1 - Get to Know Call
+I got a Calendly link on Cuvette to schedule the interview with the co-founder. The interview went pretty good, it was a normal get to know call, with a slightly tricky question of answering the angle between the minute hand and hour hand of the clock and coding for the same. This was a little out of the box for me as I had not seen such math questions for a while but after thinking for a while I was able to answer and code for the same accurately. 
 
-Jazz teaches us that creativity thrives within boundaries. The structure provides the foundation for freedom.
+## Round 2 - Technical Assignment
+Now when I look at hindsight it was a strange selection process as this was the first time I got the assignment for any application after an interview round. The assignment was on building an application which applied Google Maps API and returned the closest distance between two places with or without stops between the source and destination with a UI given on Figma. There weren't many example applications which applied Google Maps API on React so that served as a kind of challenge at the beginning but when persisting on it for 2-3 days, I was able to make it and submit in time.
 
-## Life Lessons
+## Round 3 - Technical Interview
+After a week of the assignment, I got another Calendly link on Cuvette to schedule the technincal round. The interview started with me introducing about myself, and though I expected the normal flow to go like me being asked to show working demos of my projects, it was to my surprise that one of the many interviewers started asking frontend questions, specifically about Javascript and React. I answered the React questions like I was Jorde Walke himself(XD). They were standard questions like how React works, what are hooks, what is the useEffect hook, what is virtual DOM etc. I answered them all and the interviewer was satisfied but then when a practical question was asked, to call an API and display the data on the UI, which I had done everything correctly barring wrapping the API response in a state variable which lead it to being not render correctly. This got me into panic but then the Backend person started asking questions.
+He asked me about promises in Javascript, about async nature, about Node and Express, different design patterns. Difference between MVC and MVVC. He also asked me to implement a promise class which logged something on screen which I faltered doing. At the end, the founder asked me to provide a brief database design of instagram, which I boiled down to profile and posts features only and all the tables associated with it. 
 
-- Embrace uncertainty and adapt
-- Listen actively to others
-- Trust your instincts and training
-- Find beauty in the unexpected
+## Verdict
+That was one hell of an interview, tbh and I did not expect to get selected. But fortunately I got the call from the founder for the offer and I got accepted for the Backend Developer Internship.
 
-## Musical Parallels
-
-Just as jazz musicians build on chord progressions, we build on our experiences and knowledge.`,
-    date: "2025-08-05",
-    readingTime: "5 min read",
-    tags: ["Music", "Jazz", "Philosophy"],
-    category: "music",
-    author: "Quantum",
+## Learnings
+If the previous interview process taught me to look into software engineering with a lens of a Product enthusiast this one made sure that I am grounded with my technical abilities and looked into Machine Coding Round and System Design problems more frequently.`,
+    date: "2025-09-07",
+    readingTime: "10 min read",
+    tags: ["Interview", "Graviti", "Backend"],
+    category: "interview-experiences",
+    author: "Akshat",
   },
   {
     slug: "finding-balance-in-chaos",

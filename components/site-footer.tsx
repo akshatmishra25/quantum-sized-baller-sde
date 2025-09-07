@@ -7,7 +7,7 @@ export function SiteFooter() {
         <p className="text-sm text-muted-foreground">© 2025 Quantum Sized Baller SDE</p>
         <div className="flex items-center gap-5">
           <Link
-            href="https://github.com/"
+            href="https://github.com/akshatmishra25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground transition-colors hover:text-[var(--brand)]"
@@ -15,7 +15,7 @@ export function SiteFooter() {
             GitHub<span className="sr-only"> (opens in new tab)</span>
           </Link>
           <Link
-            href="https://x.com/"
+            href="https://x.com/AkshatMx10"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground transition-colors hover:text-[var(--brand)]"
@@ -23,7 +23,7 @@ export function SiteFooter() {
             X<span className="sr-only"> (opens in new tab)</span>
           </Link>
           <Link
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/akshatmx10"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground transition-colors hover:text-[var(--brand)]"
