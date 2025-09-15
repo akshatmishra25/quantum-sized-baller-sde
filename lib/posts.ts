@@ -155,28 +155,34 @@ If the previous interview process taught me to look into software engineering wi
     author: "Akshat",
   },
   {
-    slug: "finding-balance-in-chaos",
-    title: "Finding Balance in Chaos",
-    excerpt: "Personal reflections on maintaining equilibrium in turbulent times.",
-    content: `## The Storm Within
+    slug: "full-stack-engineering-intern-zuddl",
+    title: "Full Stack Engineering Intern, Zuddl",
+    excerpt: "Personal reflections on maintaining equilibrium and sticking to a routine in chaos even during interviews.",
+    content: `## The Application Process and a little bit of backstory
 
-Life has a way of testing our resilience. Here's how I've learned to find calm in the chaos.
+Life has a way of testing our resilience and you gotta stay ready anytime. I remember correctly that I saw the opportunity of Zuddl on a Telegram channel which used to post links of jobs and internship opportunities. I applied to it just like all the other random opportunities where I was applying. I got a call from the HR describing the role to me in brief the compensation(which was pretty good) and the work culture(which was also pretty good), the work hours, the fact that it was a YC comapny and about the remote setting. She asked me if I was interested and the Akshat of 2024 June hearing the great stipend in remote from a YC company was like "Hell yeah". She then told me that I will get an online assessment/coding round. I was a little worried for it as me making assignments for the various companies couldn't really do DSA that much except for the routine 2-3 problems, but giving a shot was better than not giving it at all.
 
-## Strategies That Work
+## Round 1 - Online Assessment/Coding Round
+I sat for the OA with zero expectations. The OA was of 90 minutes and had three problems. I have forgotten the first two problems which could be Leetcode easy/medium implementation problems except for the fact that there was an error by the platform for problem 2 where the return type of the function should have been a string but it was not the case there. I called the HR immediately informing this but it was already Friday so she said that they can't help in that case. So I carried on with the OA cleverly adding a print statement for the final string in the second problem, which I later found was the correct thing to do in discrepancies like this. The third problem was a Dynamic Programming problem which was something like Partition Equal Subset Sum, which due to lack of enough DSA practice I couldn't solve in the stipulated time. After the OA, I found that the problem was directly from Striver's DP series. I cursed myself for not being able to solve and saw a dark future for myself if I can't solve questions like these.
 
-- Establish daily routines
-- Practice mindfulness and meditation
-- Build a supportive community
-- Accept that not everything is in your control
+## The Break of Days 
+Luckily even after solving only two problems from three I got a call from the recruiter for the next round which was a technical interview. The recruiter also sent me a detailed Job Description on email. I was kind of delighted as I had been giving OAs since the beginning of my third year and had given of a lot of big companies also like Amazon, LinkedIn, Harness, Paypal, Intuit, JP Morgan, etc. but this was the first time I had cleared an OA. But the joy was short-lived as the recruiter asked me whether I could give the interview in the evening of the same day. I vividly remember in the morning I had a meet scheduled with the founder of Graviti where he told me that I was selected and it was all about the offer, the compensation and expectations. And this was way early in the morning. I with my hostel habits of sleeping late night thought the night before that meet that I should wake up the entire night and sleep after it. Little did I know that I was doomed that way. I with just 3-4 hours of sleep in 36 hours and after accepting the offer of Graviti started going through the JD of Zuddl first. They expected backend proficiency in Java for which I was a little worried as I only knew NodeJS and a bit of Python backend. Still in the minimum time I had revising I went through some Java concepts.
 
-## The Journey
+## Round 2 - Technical Interview
+The interview started with me introducing myself. Then they jumped straight to technical questions. They first asked me about React general questions like how React works, what are hooks, what is the state, Virtual DOM and all. I thought in my mind whether these interviewers have a question bank or something. I was asked Java questions then which I answered. Then was the turn of Databases and DBMS where I was first asked about Normalisation and then about Primary Key, Foreign Key and Candidate Key. I answered them all confidently. Then was the turn of OOPS where I answered the four pillars and about constructor well but faltered in overriding v/s overloading where I misplaced the overriding answer in overloading and vice-versa which could be due to me being in a sleepy condition or because I was into these topics after a considerably long time.
+Finally I was asked questions on DSA, the first one being finding middle element of a linked list which I provided the brute force and optimized hare and tortoise approach also. The second problem was of Binary Search in a matrix to search an element which I answered and coded correctly and also improved the naming of variables near the end of the interview as the interviewer had pointed out. The code was asked to be written in a shared Google Doc just like interviews at Google and I felt a little privileged XD. That marked the end of the interview. I was quite satisfied except that OOPS question but the interviewer gave me good feedback at the end so I was hopeful.
 
-Finding balance is a continuous process, not a destination.`,
-    date: "2025-07-28",
-    readingTime: "4 min read",
-    tags: ["Life", "Mindfulness", "Personal Growth"],
-    category: "life",
-    author: "Quantum",
+## Verdict
+Now this interview had so many topics to cover that I thought if I hadn't studied Computer Science properly along with development it would have been quite difficult. Unfortunately even after giving a great interview I got a rejection mail few days later. Later from a person who got selected he told me that they stopped selecting more candidates after a certain date and number was fulfilled due to some reasons.
+
+## Learnings
+The rejection didn't affect me that much as I had already accepted the offer of Graviti and was waiting to start working there, but deep down I felt some pain as this was also a great offer and that too from a YC startup. But some things in life are just not meant to be. I realised that my bad sleeping habits need to improve definitely and somehow I need to find time to practice more DSA problems.
+Huff, so that was a long one I guess. Cheers if you survived till here. More to come in the future.`,
+    date: "2025-09-15",
+    readingTime: "15 min read",
+    tags: ["Interview", "Zuddl", "Full Stack", "YC", "Habits"],
+    category: "interview-experiences",
+    author: "Akshat",
   },
   {
     slug: "react-hooks-deep-dive",
