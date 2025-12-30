@@ -1,0 +1,11 @@
+{
+  "slug": "four-verticals-of-a-football-midfield",
+  "title": "Four Verticals of a Football Midfield",
+  "excerpt": "Breaking down spatial dynamics and decision-making patterns across modern midfield structures.",
+  "content": "## Shape and Space\n\nA midfield is a living organism. The spacing between lanes is the interface.\n\n```js\nconst lanes = ['left', 'half-left', 'half-right', 'right']\nlanes.forEach(l => console.log(l))\n```\n\n- Occupy space\n- Create overloads\n- Rotate intelligently",
+  "date": "2025-08-21",
+  "readingTime": "8 min read",
+  "tags": ["Football"],
+  "author": "Quantum",
+  "featured": true
+}

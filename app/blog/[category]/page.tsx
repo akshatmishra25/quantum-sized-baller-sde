@@ -4,13 +4,13 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string
-  }
+  }>
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const { category } = params
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { category } = await params
   const posts = getPostsByCategory(category)
   const allCategories = getAllCategories()
   
@@ -26,12 +26,12 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <div className="mb-8">
         <Link 
           href="/blog" 
-          className="text-blue-400 hover:text-blue-300 transition-colors mb-4 inline-block"
+          className="text-[var(--brand)] hover:text-[var(--brand)]/80 transition-colors mb-4 inline-block"
         >
           ← Back to Categories
         </Link>
-        <h1 className="text-3xl font-bold text-white">{categoryName}</h1>
-        <p className="text-gray-400 mt-2">
+        <h1 className="text-3xl font-bold text-foreground">{categoryName}</h1>
+        <p className="text-muted-foreground mt-2">
           {posts.length} {posts.length === 1 ? 'post' : 'posts'} in this category
         </p>
       </div>
@@ -44,10 +44,10 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       
       {posts.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-gray-400 text-lg">No posts found in this category yet.</p>
+          <p className="text-muted-foreground text-lg">No posts found in this category yet.</p>
           <Link 
             href="/blog" 
-            className="text-blue-400 hover:text-blue-300 transition-colors mt-4 inline-block"
+            className="text-[var(--brand)] hover:text-[var(--brand)]/80 transition-colors mt-4 inline-block"
           >
             Browse other categories
           </Link>

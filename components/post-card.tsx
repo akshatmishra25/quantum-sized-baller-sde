@@ -15,7 +15,7 @@ export function PostCard({ post }: { post: Post }) {
         </div>
         <Link
           href={`/blog/${post.category}/${post.slug}`}
-          className="text-lg font-semibold text-white underline-offset-2 hover:text-[var(--brand)] hover:underline"
+          className="text-lg font-semibold text-foreground underline-offset-2 hover:text-[var(--brand)] hover:underline"
         >
           {post.title}
         </Link>

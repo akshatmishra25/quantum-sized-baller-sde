@@ -1,0 +1,11 @@
+{
+  "slug": "quantum-notes-entanglement-and-information",
+  "title": "Quantum Notes: Entanglement and Information",
+  "excerpt": "An intuitive sketch of how entanglement constrains information and what that means for computation.",
+  "content": "## Entanglement Intuition\n\nBell pairs are correlations without classical analogs.\n\n```python\ndef measure(q1, q2):\n    return ('+', '-')  # toy example\n```\n\n- No signaling\n- Strong correlations\n- Computational implications",
+  "date": "2025-08-10",
+  "readingTime": "7 min read",
+  "tags": ["Physics"],
+  "author": "Quantum",
+  "featured": true
+}

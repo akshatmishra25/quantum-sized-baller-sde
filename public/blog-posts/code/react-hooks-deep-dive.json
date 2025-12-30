@@ -1,0 +1,10 @@
+{
+  "slug": "react-hooks-deep-dive",
+  "title": "React Hooks: A Deep Dive",
+  "excerpt": "Understanding the internals of React hooks and how to use them effectively.",
+  "content": "## Understanding Hooks\n\nReact hooks are more than just functions. They're a way to share stateful logic between components.\n\n## Custom Hooks\n\n```tsx\nfunction useLocalStorage(key: string, initialValue: any) {\n  const [storedValue, setStoredValue] = useState(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: any) => {\n    try {\n      setStoredValue(value);\n      window.localStorage.setItem(key, JSON.stringify(value));\n    } catch (error) {\n      console.log(error);\n    }\n  };\n\n  return [storedValue, setValue];\n}\n```\n\n## Best Practices\n\n- Always call hooks at the top level\n- Don't call hooks inside loops, conditions, or nested functions\n- Use the dependency array correctly",
+  "date": "2025-07-20",
+  "readingTime": "12 min read",
+  "tags": ["React", "JavaScript", "Frontend"],
+  "author": "Quantum"
+}

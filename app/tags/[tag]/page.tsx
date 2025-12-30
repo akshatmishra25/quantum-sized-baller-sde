@@ -15,7 +15,7 @@ export default function TagPage({ params }: Props) {
   if (tagged.length === 0) return notFound()
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
-      <h1 className="mb-6 text-2xl font-semibold text-white">Posts tagged #{params.tag}</h1>
+      <h1 className="mb-6 text-2xl font-semibold text-foreground">Posts tagged #{params.tag}</h1>
       <div className="space-y-4">
         {tagged.map((p) => (
           <PostCard key={p.slug} post={p} />

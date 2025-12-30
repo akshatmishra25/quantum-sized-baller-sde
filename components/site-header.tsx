@@ -30,7 +30,7 @@ export function SiteHeader() {
       aria-label="Primary"
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-        <Link href="/" className="font-semibold tracking-tight text-white">
+        <Link href="/" className="font-semibold tracking-tight text-foreground">
           <span className="text-pretty">Quantum Sized Baller SDE</span>
         </Link>
         <nav className="flex items-center gap-6" aria-label="Main navigation">
