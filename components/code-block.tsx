@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import Highlight, { defaultProps, themes } from "prism-react-renderer"
+import { Highlight, themes } from "prism-react-renderer"
 
 export function CodeBlock({
   code,
@@ -33,19 +33,23 @@ export function CodeBlock({
           {copied ? "Copied" : "Copy"}
         </button>
       </div>
-      <Highlight {...defaultProps} theme={themes.dracula} code={code.trim()} language={language as any}>
+      <Highlight theme={themes.dracula} code={code.trim()} language={language as any}>
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
           <pre
             className={`${className} m-0 max-h-[60vh] overflow-auto bg-[#0B0B0B] p-4 text-sm leading-relaxed`}
             style={style}
           >
-            {tokens.map((line, i) => (
-              <div key={i} {...getLineProps({ line, key: i })}>
-                {line.map((token, key) => (
-                  <span key={key} {...getTokenProps({ token, key })} />
-                ))}
-              </div>
-            ))}
+            {tokens.map((line, i) => {
+              const { key: lineKey, ...lineProps } = getLineProps({ line, key: i })
+              return (
+                <div key={lineKey} {...lineProps}>
+                  {line.map((token, key) => {
+                    const { key: tokenKey, ...tokenProps } = getTokenProps({ token, key })
+                    return <span key={tokenKey} {...tokenProps} />
+                  })}
+                </div>
+              )
+            })}
           </pre>
         )}
       </Highlight>
